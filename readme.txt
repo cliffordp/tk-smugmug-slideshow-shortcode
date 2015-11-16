@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Adds [smugmug_slideshow] shortcode. Uses Shortcake (Shortcode UI).
+Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash so it works on all devices, including mobile). Uses Shortcake (Shortcode UI).
 
 == Description ==
 Making it easy to embed a SmugMug slideshow (iframe, not Flash)
