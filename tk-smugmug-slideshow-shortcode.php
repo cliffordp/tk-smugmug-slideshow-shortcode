@@ -368,7 +368,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
     				),
     				array(
     					'label'       => esc_html__( 'SmugMug Album Key (Required)', 'tk-smugmug-slideshow-shortcode' ),
-    					'description' => __( 'How-to find: <ol><li>Go to your SmugMug gallery/album</li><li>right-click</li><li>click "View Page Source"</li><li>then search for "albumKey"</li></ol><br>Alternatively, you can click to generate the slideshow and copy it from the generated iframe code.', 'tk-smugmug-slideshow-shortcode' ),
+    					'description' => __( 'How-to find: <ol><li>Go to your SmugMug gallery/album</li><li>right-click</li><li>click "View Page Source"</li><li>then search for "albumKey"</li></ol>Alternatively, you can click to generate the slideshow and copy it from the generated iframe code.', 'tk-smugmug-slideshow-shortcode' ),
     					'attr'        => 'key',
     					'type'        => 'text',
     					'meta'        => array(

@@ -1,6 +1,6 @@
 === TK SmugMug Slideshow Shortcode ===
 Contributors: cliffpaulick
-Tags: carousel, iframe, shortcode, shortcodes, shortcake, slideshow, smugmug
+Tags: carousel, iframe, shortcode, shortcodes, shortcake, slideshow, SmugMug
 Donate link: http://tourkick.com/pay/
 Requires at least: 4.0
 Tested up to: 4.3.1
@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash so it works on all devices, including mobile). Uses Shortcake (Shortcode UI).
+Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash).
 
 == Description ==
 Making it easy to embed a SmugMug slideshow (iframe, not Flash)
@@ -31,13 +31,12 @@ Integrates with Shortcake (Shortcode UI) so building shortcodes (even ones with 
 = Complimentary Items =
 These items may come in handy for using TK SmugMug Slideshow Shortcode:
 (may contain affiliate links)
+
 * You'll need a [SmugMug account](https://secure.smugmug.com/signup?Coupon=vGSrlGb7FH6Cs). Sign up via my link to support me. Plus, you'll get 20% off your subscription!
 * [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/) - You'll be prompted to install this one when you install TK SmugMug Slideshow Shortcode; that's how great it is!
 
 = Acknowledgements =
-Special thanks to:
-
-* The Shortcake (Shortcode UI) and [Shortcake Bakery](https://wordpress.org/plugins/shortcake-bakery/) developers/contributors.
+Special thanks to the Shortcake (Shortcode UI) developers/contributors.
 
 FYI: This is a third-party plugin, not officially from the SmugMug company.
 
@@ -46,7 +45,7 @@ FYI: This is a third-party plugin, not officially from the SmugMug company.
 * [View my other plugins](https://profiles.wordpress.org/cliffpaulick/#content-plugins)
 * [Hire Me for Customizations](http://tourkick.com/)
 * [Contribute code via GitHub](https://github.com/cliffordp/tk-smugmug-slideshow-shortcode)
-* **[Tweet this plugin](https://twitter.com/home?status=I%20love%20the%20free%20TK%20Slideshow%20Shortcode%20plugin%20at%20https%3A//wordpress.org/plugins/tk-smugmug-slideshow-shortcode/%20-%20Thanks%20%40TourKick!)**
+* **[Tweet this plugin](https://twitter.com/home?status=I%20love%20the%20free%20TK%20%40SmugMug%20Slideshow%20Shortcode%20plugin%20at%20https%3A//wordpress.org/plugins/tk-smugmug-slideshow-shortcode/%20-%20Thanks%20%40TourKick!)**
 
 
 == Installation ==
@@ -61,23 +60,30 @@ After automatically installing to wp-content/plugins/:
 
 Here are some shortcode examples:
 
-* MDL Tooltip: `[mdl-tooltip text="XML"]eXtensible Markup Language[/mdl-tooltip]`
+* At the least, the SmugMug Album Key is required: `[smugmug-slideshow key="TrBCmb"]`
+* A variety of shortcode arguments: `[smugmug-slideshow domain="media.tourkick.com" key="TrBCmb" autostart_off="true" navigation="true" playbutton="true" height="400"]`
+* By default, width is set to 100% (responsive), but here's an example of how to make it fixed width: `[smugmug-slideshow key="TrBCmb" width="450" widthunits="px"]`
+
 
 *Don't forget most of these shortcodes have a user interface (UI) to make it easy to create them (so you don't have to manually enter all that shortcode garbly-gook).*
 
-**Does MDL Shortcodes work with my theme?**
+**Does the shortcode work with my theme?**
 
-The styling of all these components is essentially self-contained. Due to the nature of implementing the shortcodes (they require the Icon Font, CSS, and JS files to be loaded), this plugin can feel like it "takes over" your theme's styling. In summary, yes, it should WORK with your theme (not cause PHP or other errors), but it may not LOOK GREAT with your theme (although that doesn't mean it can't with some tweaks).
+Yes.
 
 
 == Screenshots ==
-1. 
+1. Plugin GUI - Shortcode Generator (with Shortcake active)
 
-2. 
+2. Shortcode vs SmugMug slideshow generators
+
+3. WP Editor preview
+
+4. WP Editor preview with Edit-Delete buttons
 
 
 == Changelog ==
 *Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
 
 = Version 1.0 =
-* Initially uploaded to WordPress.org on November 20, 2015
+* Initially uploaded to WordPress.org on November 17, 2015
