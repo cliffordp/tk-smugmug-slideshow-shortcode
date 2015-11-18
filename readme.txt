@@ -65,11 +65,15 @@ Here are some shortcode examples:
 * By default, width is set to 100% (responsive), but here's an example of how to make it fixed width: `[smugmug-slideshow key="TrBCmb" width="450" widthunits="px"]`
 
 
-*Don't forget most of these shortcodes have a user interface (UI) to make it easy to create them (so you don't have to manually enter all that shortcode garbly-gook).*
+*Don't forget: This shortcode has a user interface (UI) to make it easy to generate or edit `[smugmug-slideshow]` in the Visual Editor (so you don't have to manually enter all that shortcode garbly-gook).*
 
 **Does the shortcode work with my theme?**
 
-Yes.
+Yes. It's just an iframe.
+
+**Does the shortcode work over SSL/HTTPS?**
+
+Unfortunately, no. The iframe `src` will only be `http://` because SmugMug doesn't serve images over HTTPS ([I wish they did](http://feedback.smugmug.com/forums/17723-smugmug/suggestions/2359876-allow-images-and-video-to-be-served-via-https-ss)). This means, if trying to display the SmugMug slideshow on a page loaded as `https://`, your site will have a "mixed content warning". It's possible your HTTPS visitors will see an unattractive browser warning and/or not see the slideshow at all. More information about this topic is available at [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Security/MixedContent/How_to_fix_website_with_mixed_content).
 
 
 == Screenshots ==
