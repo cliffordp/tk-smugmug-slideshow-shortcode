@@ -36,7 +36,7 @@ These items may come in handy for using TK SmugMug Slideshow Shortcode:
 * [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/) - You'll be prompted to install this one when you install TK SmugMug Slideshow Shortcode; that's how great it is!
 
 = Acknowledgements =
-Special thanks to the Shortcake (Shortcode UI) developers/contributors.
+Special thanks to the Shortcake (Shortcode UI) and [TGM Plugin Activation](http://tgmpluginactivation.com/) developers/contributors.
 
 FYI: This is a third-party plugin, not officially from the SmugMug company.
 
