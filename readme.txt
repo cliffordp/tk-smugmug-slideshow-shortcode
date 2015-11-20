@@ -3,7 +3,7 @@ Contributors: cliffpaulick
 Tags: carousel, iframe, shortcode, shortcodes, shortcake, slideshow, SmugMug
 Donate link: http://tourkick.com/pay/
 Requires at least: 4.0
-Tested up to: 4.3.1
+Tested up to: 4.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -88,6 +88,10 @@ Unfortunately, no. The iframe `src` will only be `http://` because SmugMug doesn
 
 == Changelog ==
 *Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
+
+= Version 1.1 =
+* Fix plugin header to avoid error with attempt to activate plugin upon initial installation.
+* Change Tested Up To WP version 4.4.
 
 = Version 1.0 =
 * Initially uploaded to WordPress.org on November 17, 2015

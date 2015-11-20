@@ -1,15 +1,15 @@
 <?php
-/**
- * Plugin Name: TK SmugMug Slideshow Shortcode
- * Plugin URI: https://wordpress.org/plugins/tk-smugmug-slideshow-shortcode/
- * Description: Adds <strong>[smugmug-slideshow]</strong> shortcode. Uses Shortcake (Shortcode UI) plugin.
- * Version: v1.0
- * Author: TourKick (Clifford Paulick)
- * Author URI: http://tourkick.com/
- * License: GPLv2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: tk-smugmug-slideshow-shortcode
- */
+/*
+Plugin Name: TK SmugMug Slideshow Shortcode
+Plugin URI: https://wordpress.org/plugins/tk-smugmug-slideshow-shortcode/
+Description: Adds <strong>[smugmug-slideshow]</strong> shortcode. Uses Shortcake (Shortcode UI) plugin.
+Version: v1.1
+Author: TourKick (Clifford Paulick)
+Author URI: http://tourkick.com/
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Text Domain: tk-smugmug-slideshow-shortcode
+*/
 
 
 
