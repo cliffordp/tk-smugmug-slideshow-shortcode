@@ -89,9 +89,19 @@ Unfortunately, no. The iframe `src` will only be `http://` because SmugMug doesn
 == Changelog ==
 *Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
 
+= Version 1.3 =
+* November 25, 2015
+* Fix check for global $content_width (!empty instead of isset to avoid iframe width of zero).
+* Added esc_url() to iframe src to improve HTML validation and security.
+
+= Version 1.2 =
+* November 21, 2015
+* Fix plugin header to avoid error with attempt to activate plugin upon initial installation (included TGM Plugin Activation had valid plugin header info and WP scans down another directory looking for additional plugins)
+
 = Version 1.1 =
-* Fix plugin header to avoid error with attempt to activate plugin upon initial installation.
+* November 20, 2015
 * Change Tested Up To WP version 4.4.
 
 = Version 1.0 =
+* November 17, 2015
 * Initially uploaded to WordPress.org on November 17, 2015

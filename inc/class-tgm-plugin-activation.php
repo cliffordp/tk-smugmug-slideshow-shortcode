@@ -15,8 +15,6 @@
  * @license   GPL-2.0+
  *
  * @wordpress-plugin
- * Plugin Name: TGM Plugin Activation
- * Plugin URI:
  * Description: Plugin installation and activation for WordPress themes.
  * Version:     2.5.2
  * Author:      Thomas Griffin, Gary Jones, Juliette Reinders Folmer

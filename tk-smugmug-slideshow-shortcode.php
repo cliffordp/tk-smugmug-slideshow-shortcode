@@ -3,7 +3,7 @@
 Plugin Name: TK SmugMug Slideshow Shortcode
 Plugin URI: https://wordpress.org/plugins/tk-smugmug-slideshow-shortcode/
 Description: Adds <strong>[smugmug-slideshow]</strong> shortcode. Uses Shortcake (Shortcode UI) plugin.
-Version: v1.1
+Version: v1.3
 Author: TourKick (Clifford Paulick)
 Author URI: http://tourkick.com/
 License: GPLv2 or later
@@ -453,7 +453,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
       
       global $content_width;
       
-      if( isset( $content_width ) ) {
+      if( ! empty( $content_width ) ) {
         $iframe_width = $content_width;
       } else {
         $iframe_width = '800';
@@ -545,33 +545,37 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
     	$no_iframe_text = sprintf( '<p>%s</p>', __( 'Your browser does not support iframes. Therefore, you cannot view this slideshow content.', 'tk-smugmug-slideshow-shortcode' ) );
     	  $no_iframe_text = apply_filters( 'tk_smugmug_slideshow_shortcode_default_noiframetext', $no_iframe_text );
     	
+    	$iframe_src = sprintf( 'http://%s/frame/slideshow?key=%s&autoStart=%d&captions=%d&navigation=%d&playButton=%d&speed=%d&transition=%s&transitionSpeed=%d',
+        $domain,
+        $key,
+        $autostart,
+        $captions,
+        $navigation,
+        $playbutton,
+        $speed,
+        $transition,
+        $transitionspeed
+      );
+      
+      $iframe_src = esc_url( $iframe_src );
       
       // iframe width and height must be positive integers (without 'px'), which is why the correct way to get responsive width is by adding CSS
-      $output = sprintf( '
-        <iframe style="width: %1$d%2$s; height: %3$d%4$s" class="tk-smugmug-slideshow-shortcode %5$s"
-          src="http://%6$s/frame/slideshow?key=%7$s&autoStart=%8$d&captions=%9$d&navigation=%10$d&playButton=%11$d&speed=%12$d&transition=%13$s&transitionSpeed=%14$d"
-          width="%15$d"
+      $output = sprintf( '<iframe style="width: %d%s; height: %d%s" class="tk-smugmug-slideshow-shortcode %s"
+          src="%s"
+          width="%d"
           height="600"
           >
-          %16$s
+          %s
         </iframe>',
-        $width,           // 1
-        $widthunits,      // 2
-        $height,          // 3
-        $heightunits,     // 4
-        $class,           // 5
-        $domain,          // 6
-        $key,             // 7
-        $autostart,       // 8
-        $captions,        // 9
-        $navigation,      // 10
-        $playbutton,      // 11
-        $speed,           // 12
-        $transition,      // 13
-        $transitionspeed, // 14
-        $iframe_width,    // 15
-        $no_iframe_text   // 16
-        );
+        $width,
+        $widthunits,
+        $height,
+        $heightunits,
+        $class,
+        $iframe_src,
+        $iframe_width,
+        $no_iframe_text
+      );
       
       return $output;
     
