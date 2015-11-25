@@ -453,7 +453,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
       
       global $content_width;
       
-      if( isset( $content_width ) ) {
+      if( ! empty( $content_width ) ) {
         $iframe_width = $content_width;
       } else {
         $iframe_width = '800';
