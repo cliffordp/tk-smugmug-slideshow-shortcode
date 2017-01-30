@@ -3,7 +3,7 @@ Contributors: cliffpaulick
 Tags: carousel, iframe, shortcode, shortcodes, shortcake, slideshow, SmugMug
 Donate link: http://tourkick.com/pay/
 Requires at least: 4.0
-Tested up to: 4.4
+Tested up to: 4.7.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -28,11 +28,11 @@ Integrates with Shortcake (Shortcode UI) so building shortcodes (even ones with 
 * Actions and Filters available for developers and advanced customizations
 * Responsive plugin developer
 
-= Complimentary Items =
+= Complementary Items =
 These items may come in handy for using TK SmugMug Slideshow Shortcode:
 (may contain affiliate links)
-
-* You'll need a [SmugMug account](https://secure.smugmug.com/signup?Coupon=vGSrlGb7FH6Cs). Sign up via my link to support me. Plus, you'll get 20% off your subscription!
+* My [Copy SmugMug Album Key Chrome extension](https://github.com/cliffordp/chrome-ext-copy-smugmug-album-key/) helps me easily find the AlbumKey required to use this shortcode. It might come in handy for you too.
+* Unless you're embedding another user's SmugMug galleries, you'll need a [SmugMug account](https://secure.smugmug.com/signup?Coupon=vGSrlGb7FH6Cs). Sign up via my link to support me. Plus, you'll get 20% off your subscription!
 * [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/) - You'll be prompted to install this one when you install TK SmugMug Slideshow Shortcode; that's how great it is!
 
 = Acknowledgements =
@@ -88,6 +88,10 @@ Unfortunately, no. The iframe `src` will only be `http://` because SmugMug doesn
 
 == Changelog ==
 *Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
+
+= No version change =
+* January 30, 2017
+* Readme updated to include link to Chrome extension, specify that others’ SmugMug galleries could be used too, and that this plugin has been tested working with WordPress 4.7.2
 
 = Version 1.3 =
 * November 25, 2015
