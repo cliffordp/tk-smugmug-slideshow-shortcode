@@ -1,6 +1,6 @@
 === TK SmugMug Slideshow Shortcode ===
 Contributors: cliffpaulick, freemius
-Tags: carousel, iframe, shortcode, shortcodes, shortcake, slideshow, SmugMug
+Tags: carousel, iframe, shortcode, slideshow, SmugMug, https
 Donate link: http://tourkick.com/pay/
 Requires at least: 4.0
 Tested up to: 4.7.2
