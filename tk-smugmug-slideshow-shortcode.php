@@ -387,6 +387,11 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 							//'value'     => 'true',
 						),
 						array(
+							'label' => esc_html__( 'Randomize Photos', 'tk-smugmug-slideshow-shortcode' ),
+							'attr'  => 'randomize',
+							'type'  => 'checkbox',
+						),
+						array(
 							'label' => esc_html__( 'Captions', 'tk-smugmug-slideshow-shortcode' ),
 							'attr'  => 'captions',
 							'type'  => 'checkbox',

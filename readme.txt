@@ -74,7 +74,7 @@ Yes. It's just an iframe.
 
 **Does the shortcode work over SSL/HTTPS?**
 
-Unfortunately, no. The iframe `src` will only be `http://` because SmugMug doesn't serve images over HTTPS ([I wish they did](http://feedback.smugmug.com/forums/17723-smugmug/suggestions/2359876-allow-images-and-video-to-be-served-via-https-ss)). This means, if trying to display the SmugMug slideshow on a page loaded as `https://`, your site will have a "mixed content warning". It's possible your HTTPS visitors will see an unattractive browser warning and/or not see the slideshow at all. More information about this topic is available at [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Security/MixedContent/How_to_fix_website_with_mixed_content).
+Yes (as of version 1.5) as long as you use the "smugmug.com" domain (which is the default) or your custom SmugMug subdomain (e.g. tourkick.smugmug.com, *not* your media.tourkick.com CNAME domain).
 
 
 == Screenshots ==
@@ -92,7 +92,7 @@ Unfortunately, no. The iframe `src` will only be `http://` because SmugMug doesn
 
 = Version 1.5 =
 * May 27, 2017
-* If the shortcode's "domain" argument ends with 'smugmug.com' (e.g. xyz.smugmug.com), the slideshow will load via HTTPS, else HTTP. Really, though, you could just leave the "domain" argument empty to load it from https://smugmug.com/..., which should work in all cases.
+* Added HTTPS/SSL support. If the shortcode's "domain" argument ends with 'smugmug.com' (e.g. xyz.smugmug.com), the slideshow will load via HTTPS, else HTTP. Really, though, you could just leave the "domain" argument empty to load it from https://smugmug.com/..., which should work in all cases.
 * Added 'randomize' shortcode argument
 * Added tk_smugmug_slideshow_shortcode_before_output and tk_smugmug_slideshow_shortcode_after_output filters in case you want to add your own button that links to view the full screen slideshow (same link as the generated iframe src).
 * Integrated Freemius.
