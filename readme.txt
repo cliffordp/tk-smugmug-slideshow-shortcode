@@ -32,8 +32,8 @@ Integrates with Shortcake (Shortcode UI) so building shortcodes (even ones with 
 These items may come in handy for using TK SmugMug Slideshow Shortcode:
 (may contain affiliate links)
 
-* My [Copy SmugMug Album Key Chrome extension](https://github.com/cliffordp/chrome-ext-copy-smugmug-album-key/) helps me easily find the AlbumKey required to use this shortcode. It might come in handy for you too.
-* Unless you're embedding another user's SmugMug galleries, you'll need a [SmugMug account](https://secure.smugmug.com/signup?Coupon=vGSrlGb7FH6Cs). Sign up via my link to support me. Plus, you'll get 20% off your subscription!
+* My [Copy SmugMug Album Key Chrome extension](https://github.com/cliffordp/chrome-ext-copy-smugmug-album-key/) helps me easily find the AlbumKey required to use this shortcode; it might come in handy for you too.
+* Unless you're embedding another user's SmugMug galleries, you'll need to [get your own SmugMug account](https://secure.smugmug.com/signup?Coupon=vGSrlGb7FH6Cs). Sign up via my link to support me. Plus, you'll get 20% off your subscription!
 * [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/) - You'll be prompted to install this one when you install TK SmugMug Slideshow Shortcode; that's how great it is!
 
 = Acknowledgements =
