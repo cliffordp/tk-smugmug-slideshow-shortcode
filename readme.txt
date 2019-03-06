@@ -77,8 +77,7 @@ Yes. It's just an iframe.
 
 **Does the shortcode work over SSL/HTTPS?**
 
-Yes (as of version 1.5) as long as you use the "smugmug.com" domain (which is the default) or your custom SmugMug subdomain (e.g. tourkick.smugmug.com, *not* your media.tourkick.com CNAME domain).
-
+Yes, always (as of version 1.6). Thank you (finally), SmugMug!
 
 == Screenshots ==
 
@@ -97,6 +96,7 @@ Yes (as of version 1.5) as long as you use the "smugmug.com" domain (which is th
 = Version 1.6 =
 * March 5, 2019
 * Tested with WordPress 5.1
+* Now always loads via HTTPS, even for custom domains. Thank you (finally), SmugMug!
 * License changed from GPLv2+ to GPLv3+
 
 = Version 1.5 =

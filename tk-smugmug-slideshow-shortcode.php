@@ -98,7 +98,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 
 	class TK_SmugMug_Slideshow_Shortcode {
 
-		var $shortcode_tag = 'smugmug-slideshow';
+		public $shortcode_tag = 'smugmug-slideshow';
 
 		public function __construct() {
 			add_shortcode( $this->shortcode_tag, array( $this, 'shortcode' ) );
@@ -244,13 +244,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 		}
 
 		private function set_protocol( $domain = '' ) {
-			$length = strlen( 'smugmug.com' );
-
-			if ( 'smugmug.com' === substr( $domain, - $length ) ) {
-				$protocol = 'https';
-			} else {
-				$protocol = 'http';
-			}
+			$protocol = 'https';
 
 			return apply_filters( 'tk_smugmug_slideshow_shortcode_protocol', $protocol, $domain );
 		}
