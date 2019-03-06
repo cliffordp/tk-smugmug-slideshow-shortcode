@@ -1,34 +1,37 @@
 === TK SmugMug Slideshow Shortcode ===
 Contributors: cliffpaulick, freemius
-Tags: carousel, iframe, shortcode, slideshow, SmugMug, https
-Donate link: http://tourkick.com/pay/
+Tags: SmugMug, slideshow, shortcode, https, ssl, responsive, carousel, iframe
+Donate link: https://tourkick.com/pay/
 Requires at least: 4.0
-Tested up to: 4.7.2
-Stable tag: 1.5
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Tested up to: 5.1
+Requires PHP: 5.6
+Stable tag: 1.6
+License: GPL version 3 or any later version
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash).
 
 == Description ==
+
 Making it easy to embed a SmugMug slideshow (iframe, not Flash)
 
 Integrates with Shortcake (Shortcode UI) so building shortcodes (even ones with complex options) is super easy!
 
 = Highlights =
 
-* Easily embed a SmugMug Slideshow iframe (not Flash so it works on all devices, including mobile)
+* Easily embed a responsive HTTPS SmugMug Slideshow iframe (not Flash so it works on all devices, including mobile)
 * Customize each slideshow's settings, including Width, Auto Start, Captions, etc.
 * Slideshow is responsive by default (set to 100% Width) but can be modified to be fixed width.
-* Shortcode appears in Visual Editor for live preview, avoiding the need to preview every change by visiting the front-end.
+* Shortcode appears in Classic Editor's Visual Editor for live preview, avoiding the need to preview every change by visiting the front-end.
 * Internationalized / translatable.
 * Lightweight code base using WordPress best practices.
 * Valid HTML5 output.
-* No WP_DEBUG messages
-* Actions and Filters available for developers and advanced customizations
-* Responsive plugin developer
+* No WP_DEBUG messages.
+* Actions and Filters available for developers and advanced customizations.
+* Responsive plugin developer.
 
 = Complementary Items =
+
 These items may come in handy for using TK SmugMug Slideshow Shortcode:
 (may contain affiliate links)
 
@@ -37,26 +40,28 @@ These items may come in handy for using TK SmugMug Slideshow Shortcode:
 * [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/) - You'll be prompted to install this one when you install TK SmugMug Slideshow Shortcode; that's how great it is!
 
 = Acknowledgements =
+
 Special thanks to the Shortcake (Shortcode UI) and [TGM Plugin Activation](http://tgmpluginactivation.com/) developers/contributors.
 
 FYI: This is a third-party plugin, not officially from the SmugMug company.
 
 = Support Me =
+
 * [Leave a great review](https://wordpress.org/support/view/plugin-reviews/tk-smugmug-slideshow-shortcode?rate=5#postform)
 * [View my other plugins](https://profiles.wordpress.org/cliffpaulick/#content-plugins)
-* [Hire Me for Customizations](http://tourkick.com/)
+* [Hire Me for Customizations](https://tourkick.com/)
 * [Contribute code via GitHub](https://github.com/cliffordp/tk-smugmug-slideshow-shortcode)
 * **[Tweet this plugin](https://twitter.com/home?status=I%20love%20the%20free%20TK%20%40SmugMug%20Slideshow%20Shortcode%20plugin%20at%20https%3A//wordpress.org/plugins/tk-smugmug-slideshow-shortcode/%20-%20Thanks%20%40TourKick!)**
-
 
 == Installation ==
 
 After automatically installing to wp-content/plugins/:
 
 1. Install the Shortcake (Shortcode UI) plugin (you'll be prompted to do so if it's not already installed and activated). It's optional but highly recommended.
-2. Just use the shortcode in any Visual Editor (e.g. Post/Page edit screens). With Shortcake (Shortcode UI) plugin activated you'll be able to click "Add Media" then "Insert Post Element" then select one of the shortcodes to customize.
+2. Just use the shortcode in any Visual Editor (e.g. Post/Page edit screens). With Shortcake (Shortcode UI) plugin activated you'll be able to click "Add Media" then "Insert Post Element" then select one of the shortcodes to customize. If you are using the WordPress 5.0 Block Editor (a.k.a. Gutenberg), you will have to be within a "Classic" block to use Shortcake's interface.
 
 == Frequently Asked Questions ==
+
 **What are some shortcode examples?**
 
 Here are some shortcode examples:
@@ -74,21 +79,30 @@ Yes. It's just an iframe.
 
 **Does the shortcode work over SSL/HTTPS?**
 
-Yes (as of version 1.5) as long as you use the "smugmug.com" domain (which is the default) or your custom SmugMug subdomain (e.g. tourkick.smugmug.com, *not* your media.tourkick.com CNAME domain).
-
+Yes, always (as of version 1.6). Thank you (finally), SmugMug!
 
 == Screenshots ==
+
 1. Plugin GUI - Shortcode Generator (with Shortcake active)
 
 2. Shortcode vs SmugMug slideshow generators
 
-3. WP Editor preview
+3. Classic Editor preview
 
-4. WP Editor preview with Edit-Delete buttons
-
+4. Classic Editor preview with Edit-Delete buttons
 
 == Changelog ==
-*Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
+
+*Changelog DIFFs for all versions are available at <a href="https://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
+
+= Version 1.6 =
+* March 5, 2019
+* Tested with WordPress 5.1
+* Now requires PHP 5.6 or greater.
+* Now always loads via HTTPS, even for custom domains. Thank you (finally), SmugMug!
+* Update Freemius SDK from v1.2.1.7.1 to v2.2.4 (security fix).
+* Update TGM Plugin Activation from v2.5.2 to v2.6.1
+* License changed from GPLv2+ to GPLv3+.
 
 = Version 1.5 =
 * May 27, 2017
