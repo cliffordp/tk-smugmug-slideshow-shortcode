@@ -4,6 +4,7 @@ Tags: SmugMug, slideshow, shortcode, https, ssl, responsive, carousel, iframe
 Donate link: https://tourkick.com/pay/
 Requires at least: 4.0
 Tested up to: 5.1
+Requires PHP: 5.6
 Stable tag: 1.6
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -96,6 +97,7 @@ Yes, always (as of version 1.6). Thank you (finally), SmugMug!
 = Version 1.6 =
 * March 5, 2019
 * Tested with WordPress 5.1
+* Now requires PHP 5.6 or greater.
 * Now always loads via HTTPS, even for custom domains. Thank you (finally), SmugMug!
 * License changed from GPLv2+ to GPLv3+
 
