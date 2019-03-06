@@ -1,7 +1,7 @@
 === TK SmugMug Slideshow Shortcode ===
 Contributors: cliffpaulick, freemius
-Tags: carousel, iframe, shortcode, slideshow, SmugMug, https
-Donate link: http://tourkick.com/pay/
+Tags: SmugMug, slideshow, shortcode, https, ssl, responsive, carousel, iframe
+Donate link: https://tourkick.com/pay/
 Requires at least: 4.0
 Tested up to: 4.7.2
 Stable tag: 1.6
@@ -17,18 +17,19 @@ Integrates with Shortcake (Shortcode UI) so building shortcodes (even ones with 
 
 = Highlights =
 
-* Easily embed a SmugMug Slideshow iframe (not Flash so it works on all devices, including mobile)
+* Easily embed a responsive HTTPS SmugMug Slideshow iframe (not Flash so it works on all devices, including mobile)
 * Customize each slideshow's settings, including Width, Auto Start, Captions, etc.
 * Slideshow is responsive by default (set to 100% Width) but can be modified to be fixed width.
-* Shortcode appears in Visual Editor for live preview, avoiding the need to preview every change by visiting the front-end.
+* Shortcode appears in Classic Editor's Visual Editor for live preview, avoiding the need to preview every change by visiting the front-end.
 * Internationalized / translatable.
 * Lightweight code base using WordPress best practices.
 * Valid HTML5 output.
-* No WP_DEBUG messages
-* Actions and Filters available for developers and advanced customizations
-* Responsive plugin developer
+* No WP_DEBUG messages.
+* Actions and Filters available for developers and advanced customizations.
+* Responsive plugin developer.
 
 = Complementary Items =
+
 These items may come in handy for using TK SmugMug Slideshow Shortcode:
 (may contain affiliate links)
 
@@ -37,26 +38,28 @@ These items may come in handy for using TK SmugMug Slideshow Shortcode:
 * [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/) - You'll be prompted to install this one when you install TK SmugMug Slideshow Shortcode; that's how great it is!
 
 = Acknowledgements =
+
 Special thanks to the Shortcake (Shortcode UI) and [TGM Plugin Activation](http://tgmpluginactivation.com/) developers/contributors.
 
 FYI: This is a third-party plugin, not officially from the SmugMug company.
 
 = Support Me =
+
 * [Leave a great review](https://wordpress.org/support/view/plugin-reviews/tk-smugmug-slideshow-shortcode?rate=5#postform)
 * [View my other plugins](https://profiles.wordpress.org/cliffpaulick/#content-plugins)
-* [Hire Me for Customizations](http://tourkick.com/)
+* [Hire Me for Customizations](https://tourkick.com/)
 * [Contribute code via GitHub](https://github.com/cliffordp/tk-smugmug-slideshow-shortcode)
 * **[Tweet this plugin](https://twitter.com/home?status=I%20love%20the%20free%20TK%20%40SmugMug%20Slideshow%20Shortcode%20plugin%20at%20https%3A//wordpress.org/plugins/tk-smugmug-slideshow-shortcode/%20-%20Thanks%20%40TourKick!)**
-
 
 == Installation ==
 
 After automatically installing to wp-content/plugins/:
 
 1. Install the Shortcake (Shortcode UI) plugin (you'll be prompted to do so if it's not already installed and activated). It's optional but highly recommended.
-2. Just use the shortcode in any Visual Editor (e.g. Post/Page edit screens). With Shortcake (Shortcode UI) plugin activated you'll be able to click "Add Media" then "Insert Post Element" then select one of the shortcodes to customize.
+2. Just use the shortcode in any Visual Editor (e.g. Post/Page edit screens). With Shortcake (Shortcode UI) plugin activated you'll be able to click "Add Media" then "Insert Post Element" then select one of the shortcodes to customize. If you are using the WordPress 5.0 Block Editor (a.k.a. Gutenberg), you will have to be within a "Classic" block to use Shortcake's interface.
 
 == Frequently Asked Questions ==
+
 **What are some shortcode examples?**
 
 Here are some shortcode examples:
@@ -78,17 +81,18 @@ Yes (as of version 1.5) as long as you use the "smugmug.com" domain (which is th
 
 
 == Screenshots ==
+
 1. Plugin GUI - Shortcode Generator (with Shortcake active)
 
 2. Shortcode vs SmugMug slideshow generators
 
-3. WP Editor preview
+3. Classic Editor preview
 
-4. WP Editor preview with Edit-Delete buttons
-
+4. Classic Editor preview with Edit-Delete buttons
 
 == Changelog ==
-*Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
+
+*Changelog DIFFs for all versions are available at <a href="https://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
 
 = Version 1.6 =
 * March 5, 2019

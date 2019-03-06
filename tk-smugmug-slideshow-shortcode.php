@@ -5,19 +5,19 @@ Plugin URI: https://wordpress.org/plugins/tk-smugmug-slideshow-shortcode/
 Description: Adds <strong>[smugmug-slideshow]</strong> shortcode. Uses Shortcake (Shortcode UI) plugin. -- My <a href="https://github.com/cliffordp/chrome-ext-copy-smugmug-album-key/" target="_blank">Copy SmugMug Album Key Chrome extension</a> helps me easily find the AlbumKey required to use this shortcode; it might come in handy for you too. -- Unless you're embedding another user's SmugMug galleries, you'll need to <a href="https://secure.smugmug.com/signup?Coupon=vGSrlGb7FH6Cs" target="_blank">get your own SmugMug account</a>. Sign up via my link to support me & get 20% off your new subscription!
 Version: 1.6
 Author: TourKick (Clifford Paulick)
-Author URI: http://tourkick.com/
+Author URI: https://tourkick.com/
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: tk-smugmug-slideshow-shortcode
 */
 
-
 /* IDEAS:
-- Height: http://stackoverflow.com/a/19928835/893907, https://github.com/davidjbradshaw/iframe-resizer (like Fitvids but for all iframes), etc.
+- Height: https://stackoverflow.com/a/19928835/893907, etc.
 - Settings page for customizing defaults
 - Widget and/or just enable shortcodes in widget (but then no UI)
 - frameborder and scrolling not valid in HTML5; use CSS instead
-- customizable text if iframes not supported in browser -- possibly also display it if HTTPS page, since SmugMug doesn't display over HTTPS
+- customizable text if iframes not supported in browser
+- Block Editor
 */
 
 
@@ -116,7 +116,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 		 * @version    2.5.2
 		 * @author     Thomas Griffin, Gary Jones, Juliette Reinders Folmer
 		 * @copyright  Copyright (c) 2011, Thomas Griffin
-		 * @license    http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
+		 * @license    https://opensource.org/licenses/gpl-2.0.php GPL v2 or later
 		 * @link       https://github.com/TGMPA/TGM-Plugin-Activation
 		 */
 
@@ -177,7 +177,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 
 		// sanitize_html_classes() is from https://gist.github.com/justnorris/5387539
 		// sanitize_html_class works just fine for a single class
-		// Some times the wild <span class="blue hedgehog"> appears, which is when you need this function,
+		// Sometimes the wild <span class="blue hedgehog"> appears, which is when you need this function,
 		// to validate both blue and hedgehog,
 		// Because sanitize_html_class doesn't allow spaces.
 		//
@@ -222,7 +222,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 				return $output;
 			}
 
-			// max 50 character custom domain, per http://help.smugmug.com/customer/en/portal/articles/93340-how-do-i-use-my-custom-domain-
+			// max 50 character custom domain, per old version of https://help.smugmug.com/use-a-custom-domain-BymMexwJVHG (but no longer - oh well, leave it at 50 for now)
 			if ( 50 < strlen( $input ) ) {
 				return $output;
 			}
@@ -434,7 +434,7 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 					'attrs'         => array(
 						array(
 							'label'       => esc_html__( 'Custom SmugMug Domain (Optional)', 'tk-smugmug-slideshow-shortcode' ),
-							'description' => sprintf( __( 'Domain Only (no http:// or https://) -- More info at %s', 'tk-smugmug-slideshow-shortcode' ), "<a href='http://help.smugmug.com/customer/en/portal/articles/93340-how-do-i-use-my-custom-domain-' target='_blank'>SmugMug: How do I use my custom domain?</a>" ),
+							'description' => sprintf( __( 'Domain Only (no http:// or https://) -- More info at %s', 'tk-smugmug-slideshow-shortcode' ), "<a href='https://help.smugmug.com/use-a-custom-domain-BymMexwJVHG' target='_blank'>SmugMug: How do I use my custom domain?</a>" ),
 							'attr'        => 'domain',
 							'type'        => 'text',
 							'meta'        => array(
@@ -548,12 +548,11 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 				$iframe_width = '800';
 			}
 
-
 			$shortcode_tag = $this->shortcode_tag;
 
 			$atts = shortcode_atts(
 				array(
-					'domain'          => '', // if something other than smugmug.com -- e.g. tourkick.smugmug.com -- http://help.smugmug.com/customer/en/portal/articles/93340-how-do-i-use-my-custom-domain-
+					'domain'          => '', // if something other than smugmug.com -- e.g. tourkick.smugmug.com -- https://help.smugmug.com/use-a-custom-domain-BymMexwJVHG
 					'key'             => '',
 					'autostart_off'   => '',
 					'randomize'       => '',
@@ -691,7 +690,6 @@ if ( ! class_exists( 'TK_SmugMug_Slideshow_Shortcode' ) ) {
 			$output .= apply_filters( 'tk_smugmug_slideshow_shortcode_after_output', '', $iframe_src );
 
 			return $output;
-
 		}
 
 	} // class
