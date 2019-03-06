@@ -1,0 +1,43 @@
+{
+  "name": "tk-smugmug-slideshow-shortcode/tk-smugmug-slideshow-shortcode",
+  "description": "Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash).",
+  "type": "project",
+  "require": {
+    "php": ">=5.6",
+    "freemius/wordpress-sdk": "~2.2",
+    "tgmpa/tgm-plugin-activation": "~2.6"
+  },
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "TourKick LLC (Clifford Paulick)",
+      "email": "tko+tkeventw@tourkick.com",
+      "homepage": "https://tourkick.com/",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "archive": {
+    "exclude": [
+      "!vendor/*",
+      "*.zip",
+      ".gitignore",
+      ".github",
+      ".travis.yml",
+      "composer.phar",
+      "composer.json",
+      "composer.lock",
+      "phpunit.xml",
+      "README.md"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "TK_SmugMug_Slideshow_Shortcode\\": "src/"
+    }
+  },
+  "config": {
+    "archive-format": "zip",
+    "optimize-autoloader": true
+  }
+}

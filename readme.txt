@@ -12,6 +12,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash).
 
 == Description ==
+
 Making it easy to embed a SmugMug slideshow (iframe, not Flash)
 
 Integrates with Shortcake (Shortcode UI) so building shortcodes (even ones with complex options) is super easy!
@@ -99,7 +100,9 @@ Yes, always (as of version 1.6). Thank you (finally), SmugMug!
 * Tested with WordPress 5.1
 * Now requires PHP 5.6 or greater.
 * Now always loads via HTTPS, even for custom domains. Thank you (finally), SmugMug!
-* License changed from GPLv2+ to GPLv3+
+* Update Freemius SDK from v1.2.1.7.1 to v2.2.4 (security fix).
+* Update TGM Plugin Activation from v2.5.2 to v2.6.1
+* License changed from GPLv2+ to GPLv3+.
 
 = Version 1.5 =
 * May 27, 2017
