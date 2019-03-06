@@ -6,8 +6,8 @@ Description: Adds <strong>[smugmug-slideshow]</strong> shortcode. Uses Shortcake
 Version: 1.6
 Author: TourKick (Clifford Paulick)
 Author URI: http://tourkick.com/
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+License: GPL version 3 or any later version
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: tk-smugmug-slideshow-shortcode
 */
 
