@@ -4,9 +4,9 @@ Tags: carousel, iframe, shortcode, slideshow, SmugMug, https
 Donate link: http://tourkick.com/pay/
 Requires at least: 4.0
 Tested up to: 4.7.2
-Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Stable tag: 1.6
 
 Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash).
 
@@ -89,6 +89,9 @@ Yes (as of version 1.5) as long as you use the "smugmug.com" domain (which is th
 
 == Changelog ==
 *Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
+
+= Version 1.6 =
+* March 5, 2019
 
 = Version 1.5 =
 * May 27, 2017
