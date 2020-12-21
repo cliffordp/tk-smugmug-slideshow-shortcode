@@ -6,7 +6,7 @@ namespace TK_SmugMug_Slideshow_Shortcode;
 Plugin Name: TK SmugMug Slideshow Shortcode
 Plugin URI: https://wordpress.org/plugins/tk-smugmug-slideshow-shortcode/
 Description: Adds <strong>[smugmug-slideshow]</strong> shortcode. Uses Shortcake (Shortcode UI) plugin. -- My <a href="https://github.com/cliffordp/chrome-ext-copy-smugmug-album-key/" target="_blank">Copy SmugMug Album Key Chrome extension</a> helps me easily find the AlbumKey required to use this shortcode; it might come in handy for you too. -- Unless you're embedding another user's SmugMug galleries, you'll need to <a href="https://secure.smugmug.com/signup?Coupon=vGSrlGb7FH6Cs" target="_blank">get your own SmugMug account</a>. Sign up via my link to support me & get 20% off your new subscription!
-Version: 1.6
+Version: 1.7
 Author: TourKick (Clifford Paulick)
 Author URI: https://tourkick.com/
 License: GPL version 3 or any later version

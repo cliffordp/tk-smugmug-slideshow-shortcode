@@ -1,17 +1,24 @@
 === TK SmugMug Slideshow Shortcode ===
 Contributors: cliffpaulick, freemius
-Tags: SmugMug, slideshow, shortcode, https, ssl, responsive, carousel, iframe
-Donate link: https://tourkick.com/pay/
+Tags: adopt-me, SmugMug, slideshow, responsive, carousel
 Requires at least: 4.0
 Tested up to: 5.1
 Requires PHP: 5.6
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Adds [smugmug_slideshow] shortcode. Easily embed a SmugMug Slideshow iframe (not Flash).
 
 == Description ==
+
++-+-+-+
+
+**No longer maintained.**
+
+**Information is likely outdated and plugin may not work.**
+
++-+-+-+
 
 Making it easy to embed a SmugMug slideshow (iframe, not Flash)
 
@@ -67,7 +74,7 @@ After automatically installing to wp-content/plugins/:
 Here are some shortcode examples:
 
 * At the least, the SmugMug Album Key is required: `[smugmug-slideshow key="TrBCmb"]`
-* A variety of shortcode arguments: `[smugmug-slideshow domain="media.tourkick.com" key="TrBCmb" autostart_off="true" navigation="true" playbutton="true" height="400"]`
+* A variety of shortcode arguments: `[smugmug-slideshow domain="mymug.example.com" key="TrBCmb" autostart_off="true" navigation="true" playbutton="true" height="400"]`
 * By default, width is set to 100% (responsive), but here's an example of how to make it fixed width: `[smugmug-slideshow key="TrBCmb" width="450" widthunits="px"]`
 
 
@@ -94,6 +101,12 @@ Yes, always (as of version 1.6). Thank you (finally), SmugMug!
 == Changelog ==
 
 *Changelog DIFFs for all versions are available at <a href="https://plugins.trac.wordpress.org/browser/tk-smugmug-slideshow-shortcode/trunk" target="_blank">WordPress SVN</a>.*
+
+= Version 1.7 =
+* December 21, 2020
+* Tested with WordPress 5.6
+* Update Freemius SDK from v2.2.4 to v2.4.1.
+* Added the WordPress.org "Adopt Me" tag. Contact me if you want to take over this plugin. I no longer use SmugMug.
 
 = Version 1.6 =
 * March 5, 2019
