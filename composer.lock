@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7af3643ce668734ec0adc0b80333f1a",
+    "content-hash": "5d461824e9e129afc36fcc2d642f8b87",
     "packages": [
         {
             "name": "freemius/wordpress-sdk",
-            "version": "2.2.4",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Freemius/wordpress-sdk.git",
-                "reference": "a4cc02a705639bcc64b5b55b8732432986b1b228"
+                "reference": "4f60bf8a5d0635954fb911ffd52a21bc06aa7561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/a4cc02a705639bcc64b5b55b8732432986b1b228",
-                "reference": "a4cc02a705639bcc64b5b55b8732432986b1b228",
+                "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/4f60bf8a5d0635954fb911ffd52a21bc06aa7561",
+                "reference": "4f60bf8a5d0635954fb911ffd52a21bc06aa7561",
                 "shasum": ""
             },
             "require": {
@@ -34,9 +34,12 @@
                 "freemius",
                 "plugin",
                 "sdk",
-                "wordpress"
+                "theme",
+                "wordpress",
+                "wordpress-plugin",
+                "wordpress-theme"
             ],
-            "time": "2019-02-25T18:19:27+00:00"
+            "time": "2020-10-16T08:50:13+00:00"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",
@@ -103,5 +106,6 @@
     "platform": {
         "php": ">=5.6"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
